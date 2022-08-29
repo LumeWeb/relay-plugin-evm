@@ -1,0 +1,16 @@
+{
+    "name": "@lumeweb/relay-plugin-evm",
+    "type": "module",
+    "version": "0.1.0",
+    "scripts": {
+        "build": "node build.js"
+    },
+    "devDependencies": {
+        "@lumeweb/pokt-rpc-endpoints": "https://github.com/LumeWeb/pokt-rpc-endpoints.git",
+        "@lumeweb/relay": "https://github.com/LumeWeb/relay.git",
+        "esbuild": "^0.15.5"
+    },
+    "dependencies": {
+        "ethers": "^5.7.0"
+    }
+}
